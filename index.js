@@ -4,7 +4,8 @@ const checkButton = document.querySelector("#check-button");
 const message = document.querySelector("#error-message");
 const noOfNotes = document.querySelectorAll(".no-of-notes");
 
-const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
+const availableNotes = [2000, 500, 100, 20, 10, 5, 1]
+// const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
 
 checkButton.addEventListener("click", function validateBillAndCashAmount( ){
    hideMessage();
@@ -14,7 +15,7 @@ checkButton.addEventListener("click", function validateBillAndCashAmount( ){
             calculateChange(amountToBeReturned);
         }
         else {
-            showMessage (" Do u wanna wash plates?");
+            showMessage ("U have given less amount do u wanna wash plates?");
         }
     }
     else {

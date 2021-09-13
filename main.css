@@ -56,7 +56,7 @@ button {
 th,
 td {
     padding: 0.25rem;
-    color: var(--primary-blue);
+    color: black;
     background-color: var(--faint-blue);
     border: 2px solid var(--primary-blue);
     border-collapse: collapse;
