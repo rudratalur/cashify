@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+:root {
+    --primary-blue: #eca468;
+    --faint-blue: #EFF6FF;
+}
+body {
+    margin: 0;
+}
+
+.container {
+     /* display: flex;
+    flex-direction: column;
+    width: 50vw; */
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--primary-blue);
+} 
+
+h1,
+p {
+    color: black;
+}
+
+.label {
+    font-size: 1.3rem;
+    padding: 1.5rem 1rem 0.5rem;
+    color: black;
+}
+input {
+    width: 100%;
+    padding: 1rem;
+    height: 50px;
+    display: block;
+}
+button {
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    margin: 1rem auto 0;
+    background-color: var(--faint-blue);
+    color: black;
+    font-weight: bold;
+}
+
+#output table,
+th,
+td {
+    padding: 0.25rem;
+    color: var(--primary-blue);
+    background-color: var(--faint-blue);
+    border: 2px solid var(--primary-blue);
+    border-collapse: collapse;
+}
+
